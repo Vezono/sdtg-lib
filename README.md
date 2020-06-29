@@ -30,6 +30,6 @@ world.walk_range = 1 # player would be able to move only 1 tile ahead
 ```
 Getting tg keyboard for certain position:
 ```python
-world.get_tg_kb('<x>_<y>') # returns InlineKeyboardMarkup object
+world.get_tg_map('<x>_<y>') # returns InlineKeyboardMarkup object
 ```
 
