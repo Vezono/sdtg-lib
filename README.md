@@ -4,7 +4,9 @@ Second-dimensional Telegram Games library.
 `pyTelegramBotApi`
 ## Installing by requirements.txt:
 `git+git://github.com/Vezono/sdtg-lib.git#egg=sdtg`
-##Usage:
+
+## Usage:
+
 Creating a world:
 ```python
 world = World()
