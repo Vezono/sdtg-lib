@@ -28,3 +28,8 @@ Setting custom keyboard and movable size:
 world.look_range = 2 # keyboard size will be 5 (walk_range*2 + 1)
 world.walk_range = 1 # player would be able to move only 1 tile ahead
 ```
+Getting tg keyboard for certain position:
+```python
+world.get_tg_kb('<x>_<y>') # returns InlineKeyboardMarkup object
+```
+
