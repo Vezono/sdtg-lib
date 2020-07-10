@@ -45,5 +45,4 @@ def game_handler(m):  # this function will send user keyboard
 
 world.inject_callback_handler(bot, 'Map. Your pos: {pos}. Member pos: {member.pos}')  # injecting callback handler.
 
-print(7777)
 bot.polling(none_stop=True)
