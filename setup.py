@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
-from os.path import join, dirname
+
 import sdtg
 
 setup(
-    name='sdtg-lib',
+    name='sdtg',
     version=sdtg.__version__,
     author='Vezono2',
     author_email='gbball.baas@yandex.ru',
     description='Second-dimensional Telegram Games library.',
-    long_description=open(join(dirname(__file__), 'README.md'), encoding='utf-8').read(),
+    long_description='Second-dimensional Telegram Games library.',
     url='https://github.com/Vezono2/sdtg-lib',
     packages=find_packages(),
     classifiers=[
