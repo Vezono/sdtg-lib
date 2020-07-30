@@ -105,7 +105,7 @@ class World:
     @staticmethod
     def parse_pos(pos):
         x = int(pos.split('_')[0])
-        y = int(pos.split('_')[0])
+        y = int(pos.split('_')[1])
         return x, y
 
     def get_tile(self, pos) -> Tile:
@@ -118,12 +118,14 @@ class World:
         return tile
 
     def __map_elem(self, l: list, f: Callable[[Any], Any]):
+        rows = []
         row = []
         for elem in l:
             row.append(f(elem))
             if len(row) == self.width:
-                yield row
+                rows.append(row)
                 row = []
+        return rows
 
     def get_tg_map(self, pos):
         kb = types.InlineKeyboardMarkup(self.width)

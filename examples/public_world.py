@@ -6,7 +6,7 @@ bot = TeleBot('TOKEN')
 world = World()  # initializing world
 world.walk_range = 1  # user can move only one tile ahead now
 world.walk_attention = 'You can go so far!'  # user will see this text when he will try to walk further then walk_range
-world.look_range = 3  # user now see for 2 tiles around now (width of telegram keyboard would be 5)
+world.look_range = 2  # user now see for 2 tiles around now (width of telegram keyboard would be 5)
 
 world.spawns = ['0_0', '5_5']  # new users will spawn on some of this positions
 
