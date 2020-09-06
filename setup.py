@@ -5,11 +5,11 @@ import sdtg
 setup(
     name='sdtg',
     version=sdtg.__version__,
-    author='Vezono2',
-    author_email='gbball.baas@yandex.ru',
+    author='Vezono',
+    author_email='gbball.baas@gmail.com',
     description='Second-dimensional Telegram Games library.',
     long_description='Second-dimensional Telegram Games library.',
-    url='https://github.com/Vezono2/sdtg-lib',
+    url='https://github.com/Vezono/sdtg-lib',
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
